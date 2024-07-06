@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es6"
+      ],
+      "allowJs": true,
+      "outDir": "build",
+      "rootDir": "src",
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictPropertyInitialization": false,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+   }
+}

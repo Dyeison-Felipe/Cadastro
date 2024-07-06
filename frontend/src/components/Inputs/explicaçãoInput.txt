@@ -1,0 +1,14 @@
+**Componente FormField:
+-O componente FormField é um componente reutilizável para renderizar campos de formulário. Aqui está o que cada parte faz:
+
+-A interface FormFieldProps, especifica as props que o componente FormField aceita: id, type, label, register, error e maxLength.
+
+**A expressão React.FC<FormFieldProps> define o componente FormField como um "Functional Component" (Componente Funcional) em React, com as props tipadas usando TypeScript. Vamos dividir isso para explicar cada parte:
+
+
+**React.FC: Abreviação de "React Functional Component". É um tipo genérico fornecido pelo React para definir componentes funcionais.
+-Ele adiciona algumas funcionalidades adicionais ao componente, como a validação implícita de que children são permitidos (embora não sejam usados aqui).
+
+-Também pode fornecer melhor inferência de tipos para props em algumas situações.
+
+**FormFieldProps: É uma interface TypeScript que define as props esperadas pelo componente FormField.
