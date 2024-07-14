@@ -161,9 +161,6 @@ export const Nav = styled.nav`
   }
 `
 
-// -------------------------------------------searchingForData-----------------------------------------------------------------------
-
-
 export const Table = styled.div`
   width: auto;
   height: auto;
@@ -241,3 +238,6 @@ export const VerMais = styled(Link)`
     color:#007FFF;
   }
 `;
+
+export const Strong = styled.strong`
+`

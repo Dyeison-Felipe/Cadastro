@@ -18,31 +18,31 @@ const UserDetails: React.FC<Props> = ({ isOpen, closeModal, user }) => {
     >
       <S.Title>Detalhes do Usuário</S.Title>
       <S.Register>
-        <strong>ID:</strong> {user.id}
+        <S.Strong>ID:</S.Strong> {user.id}
       </S.Register>
       <S.Register>
-        <strong>Nome:</strong> {user.name}
+        <S.Strong>Nome:</S.Strong> {user.name}
       </S.Register>
       <S.Register>
-        <strong>Email:</strong> {user.email}
+        <S.Strong>Email:</S.Strong> {user.email}
       </S.Register>
       <S.Register>
-        <strong>CPF:</strong> {user.cpf}
+        <S.Strong>CPF:</S.Strong> {user.cpf}
       </S.Register>
       <S.Register>
-        <strong>CEP:</strong> {user.address.cep}
+        <S.Strong>CEP:</S.Strong> {user.address.cep}
       </S.Register>
       <S.Register>
-        <strong>Cidade:</strong> {user.address.city}
+        <S.Strong>Cidade:</S.Strong> {user.address.city}
       </S.Register>
       <S.Register>
-        <strong>Rua:</strong> {user.address.street}
+        <S.Strong>Rua:</S.Strong> {user.address.street}
       </S.Register>
       <S.Register>
-        <strong>Número:</strong> {user.address.number}
+        <S.Strong>Número:</S.Strong> {user.address.number}
       </S.Register>
       <S.Register>
-        <strong>Complemento:</strong> {user.address.complement}
+        <S.Strong>Complemento:</S.Strong> {user.address.complement}
       </S.Register>
       <S.Button onClick={closeModal}>Fechar</S.Button>
     </S.CustomModal>
