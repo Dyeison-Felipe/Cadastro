@@ -1,10 +1,10 @@
 <h1 Align="Center">Cadastro</h1>
 
-## Descrição:
+## ℹ️ Descrição:
 
 Este projeto tem como ideia representar um sistema de cadastro de usuários, onde pode adicionar um novo usuário, visualizar as informações, editar-las e também deletar o mesmo.
 
-### Pré-requisitos
+### 📋 Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Postgres](https://www.postgresql.org/download/). 
