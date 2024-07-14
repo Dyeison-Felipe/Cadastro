@@ -41,6 +41,7 @@ const Home = () => {
     setCep(formattedCep);
 
   };
+  
   const onSubmit: SubmitHandler<FormData> = async (data) => {
     try {
       const response = await fetch("http://localhost:3333/users", {
